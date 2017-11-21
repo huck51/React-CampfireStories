@@ -8,10 +8,10 @@ import Register from './Components/Register';
 import NewCG from './Components/camps/NewCG';
 import EditCG from './Components/camps/EditCG';
 import ShowCG from './Components/camps/ShowCG';
+import NewComment from './Components/comments/NewComment';
 
 class App extends Component {
   render() {
-
     return (
       <div>
         <Navigation />
@@ -25,11 +25,6 @@ class App extends Component {
         </div>
       </div>
     );
-    /*
-    return (
-      <EditCG />
-    );
-    */
   }
 }
 

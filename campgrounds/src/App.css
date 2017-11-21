@@ -5,6 +5,13 @@ h3 {
 .fav {
   float: right;
 }
+.lineup {
+  display: inline-block;
+  padding: 0.5em;
+}
+.posRight {
+  float: right;
+}
 .row {
     display: flex;
    flex-wrap: wrap;
@@ -13,6 +20,16 @@ h3 {
     display: flex;
     flex-direction: column;
 }
+.tempRight {
+  margin-left: 3em;
+}
 .thumbnail {
   height: 95%;
+}
+.commentWell {
+  height: 25em;
+}
+
+#show {
+  margin-left: 3em;
 }
